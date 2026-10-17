@@ -1,6 +1,6 @@
 # Prison Life — Blackwater
 
-A native macOS prison-life prototype built in C++20 with the supplied LambdaEngine2D.
+My native macOS prison-life game, built in C++20.
 
 Double-click **dist/Prison Life.app** or **dist/Play Prison Life.command**.
 The app is built for Apple silicon with a macOS 13.3 deployment target; only this Mac was tested.
@@ -20,6 +20,8 @@ From the delivered package:
 
 Enter or E skips the courtroom/escort. Escape pauses or closes a menu.
 
+## Controls
+
 | Control | Action |
 |---|---|
 | WASD / arrows | Move |
@@ -38,6 +40,8 @@ attacks, and a medkit, adrenaline or vending snack is consumed. Utility items ca
 Cafeteria meals still require a free seat and E; other tools use their E interactions.
 Q has no use action. Pressing Space during a timed activity only cancels that activity.
 
+## Gameplay
+
 Start with seven sentence days, $0 and 10 HP. Meals restore sanity, never health.
 One full 24-hour game day takes 5 minutes of active play: 4.8 game minutes per real second,
 at the same rate during daytime and curfew. Menus pause the clock; resting can still skip
@@ -48,6 +52,8 @@ talk with inmates for reputation and a clue. Sanctioned ring bouts pay $30–$50
 The groundskeeper lends a task shovel at the yard shed. The dealer offers a purchase route.
 Return to cell A-01 at 22:00; E beside your bunk rests until morning without restoring health.
 Serve the sentence for release, or use a shovel at the persistent loose-tile hotspot for escape.
+
+### Escape route
 
 Carrying a purchased or loaned shovel triggers repeating prisoner ambushes in groups of one,
 two and three, regardless of reputation. During this phase, replacements respawn 1.5 times faster
@@ -60,6 +66,8 @@ while digging immediately starts a completely fresh run and replaces the old che
 Wait while watched, and release E before a guard turns toward you. Removing the shovel ends
 this special phase; carrying it back into the marked cell activates patrols again.
 
+### Cafeteria, library and vending
+
 At the continuous cafeteria counter, stand beside the food you want and press E to collect
 that food directly. Meals still follow the same meal windows and require a free cafeteria
 seat to eat. The JOB marker at the end of the counter starts the serving shift with E.
@@ -71,12 +79,16 @@ Vending machines charge $5 for a random soda or chips. You need a free inventory
 the snack is selected and held when purchased. Press Space to consume it anywhere, at any time,
 for +10 sanity (capped at 100). Cafeteria meals still require a free seat.
 
+## Saving
+
 Day-start checkpoints are versioned JSON written atomically. The build saves beside the executable
 in `build/saves`; the packaged app saves in `dist/saves`. Initial arrival and each 07:00 write a checkpoint.
 Retry restores that checkpoint, rolling back money, items, stats, sentence, daily flags, resident
 progress, seeded RNG/hotspot and dropped items. Positions/patrols restart safely. This is **day-start
 persistence**, not continuous autosave. Pause → Load day-start checkpoint restores it; CLI `--continue`
 also loads it. New game starts a fresh sentence.
+
+## Building
 
 Build using the project-local tools already installed:
 
@@ -88,23 +100,24 @@ Build using the project-local tools already installed:
 python3 tools/package.py
 ```
 
-First configuration uses the engine's pinned, hash-checked dependency downloads. The engine source
-is unchanged. Recreate audio with `python3 tools/gen_assets.py`.
+Recreate audio with `python3 tools/gen_assets.py`.
 
 `prison_verify` is a separate developer executable with scripted fixtures/autoplay. No grants,
 fixture relocation or bot controls are linked into the normal app. See docs/VERIFICATION.md.
 Requirement status, actual evidence, limits and stage reports are under docs/.
 
+## Testing status
+
 Version 0.3.0 checks: 53 game tests / 1347 assertions, plus 4 offline API-client tests passed.
 These cover all 12 guard patrol layouts, safe digging windows, ambush group sizes, respawn speed,
 interrupted holds, five separate holds, directional visibility and restarting the disk checkpoint.
 The ElevenLabs integration previously returned HTTP 200; this gameplay update makes no extra API calls.
-Five relevant engine suites passed during the original build. Earlier ending/route evidence in docs/
-predates this five-hold escape change unless explicitly labelled version 0.3.0.
+Earlier ending/route evidence in docs/ predates the five-hold escape change unless explicitly
+labelled version 0.3.0.
 
 Prototype limits: day-start saves, simple NPC visit schedules, and short pool/basketball interactions.
 A full manual seven-day playthrough and manual audio audibility were not checked. The computer-control
-service could not attach to the game; native renderer capture and actual engine pointer-input tests worked.
+service could not attach to the game; native renderer capture and pointer-input tests worked.
 
 ## ElevenLabs showcase
 
@@ -131,10 +144,6 @@ API bridge: `assets/elevenlabs/client.py`. Native integration: `src/broadcast.cp
 Recording scripts and API generation receipts: `assets/elevenlabs/lines.json` and `provenance.json`.
 See `docs/ELEVENLABS_SHOWCASE.md` for a short presentation sequence and verification evidence.
 
-## Engine folder
+## Contributors
 
-The packaged `dist/Prison Life.app` contains the compiled engine and its required assets; it does
-not load the `LambdaEngine2D` source folder at runtime. You can run this app without that folder.
-Keep the folder if you want to rebuild or make further game changes. A complete source backup,
-including the unchanged engine, is in `dist/PrisonLife-source.zip`. Keep required license notices
-with any redistributed build. Deleting the source folder does not save much space (about 13 MB).
+<!-- Add contributors here -->
