@@ -1,4 +1,5 @@
 # Prison Life — Blackwater
+<img width="368" height="240" alt="1017" src="https://github.com/user-attachments/assets/bffafd01-6808-4c3e-b6a8-48a121fd3227" />
 
 My native macOS prison-life game, built in C++20.
 
