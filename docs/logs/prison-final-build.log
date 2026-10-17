@@ -1,0 +1,10 @@
+[0/2] Re-checking globbed directories...
+[1/10] Building CXX object CMakeFiles/prison_sim.dir/src/interactions.cpp.o
+[2/10] Linking CXX static library libprison_sim.a
+[3/10] Building CXX object CMakeFiles/prison_tests.dir/src/view.cpp.o
+[4/10] Building CXX object CMakeFiles/prison_life.dir/src/view.cpp.o
+[5/10] Building CXX object CMakeFiles/prison_verify.dir/src/view.cpp.o
+[6/10] Linking CXX executable prison_life
+[7/10] Linking CXX executable prison_verify
+[8/10] Building CXX object CMakeFiles/prison_tests.dir/tests/test_rules.cpp.o
+[9/10] Linking CXX executable prison_tests

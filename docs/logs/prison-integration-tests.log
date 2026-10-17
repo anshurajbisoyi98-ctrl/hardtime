@@ -1,0 +1,17 @@
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+LAM warn: audio: no sound group '#c2d3790c5c33bb63' (add_bank a bank that defines it)
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+LAM warn: audio: no sound group '#c2d3790c5c33bb63' (add_bank a bank that defines it)
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+LAM warn: audio: no sound group '#c2d3790c5c33bb63' (add_bank a bank that defines it)
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+[doctest] doctest version is "2.5.3"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases:  14 |  14 passed | 0 failed | 0 skipped
+[doctest] assertions: 602 | 602 passed | 0 failed |
+[doctest] Status: SUCCESS!

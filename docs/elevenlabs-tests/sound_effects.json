@@ -1,0 +1,19 @@
+{
+  "service": "sound_effects",
+  "tested_at_utc": "2026-10-17T08:28:56.899792+00:00",
+  "ok": true,
+  "http_status": 200,
+  "content_type": "audio/mpeg",
+  "bytes": 8820,
+  "reported_credit_cost": "5",
+  "audio_file": "/Users/sakshamarc/Desktop/gamebuild/docs/elevenlabs-tests/sound_effects.mp3",
+  "elapsed_seconds": 1.48,
+  "decoded_audio": {
+    "duration_seconds": 0.48,
+    "sample_rate": 44100,
+    "channels": 2,
+    "peak": 3706,
+    "rms": 255.94,
+    "non_silent": true
+  }
+}

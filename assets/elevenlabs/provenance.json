@@ -1,0 +1,131 @@
+{
+  "provider": "ElevenLabs",
+  "clips": {
+    "verdict": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:37.707812+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "a92120402df429b4c73532b06849be89bdff36270be043a41ee9ae08f2b991a1",
+      "credits": 59.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "The court finds you guilty. You are sentenced to seven days in Blackwater. Your choices decide how this sentence ends.",
+      "duration": 7.366530612244898
+    },
+    "welcome": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:38.672956+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "1e637bad96fac0877409df9b36384c2a7528d36402c2e400031d65a11da75d9f",
+      "credits": 56.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "Welcome to Blackwater. Your cell is A zero one. Keep your head up, follow the routine, and make every day count.",
+      "duration": 7.131428571428572
+    },
+    "meal": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:39.708657+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "9888917fa57c8e348baf1c08cb8cfd455c40ba3a30c371212df89d6ed65f59b3",
+      "credits": 53.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "The cafeteria is now open. Collect your meal at the counter, then find a free seat. One meal per prisoner.",
+      "duration": 7.2359183673469385
+    },
+    "curfew": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:40.607685+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "2799de7770f100f19dbf0440dc3650be5676b905796e41cf93f38c70f85d625c",
+      "credits": 57.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "Attention, prisoners. Curfew begins in thirty minutes. Finish what you are doing and return to your assigned cell.",
+      "duration": 6.6873469387755105
+    },
+    "phone": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:41.456199+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "93b31600558441f542f5036f80f2478c18d4178a3009d9cbc57722bd4356dd65",
+      "credits": 57.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "Hey, it's Dad. We miss you. Keep your head down and take care of yourself. We'll be waiting when those gates open.",
+      "duration": 7.000816326530612
+    },
+    "released": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:42.342991+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "103bc8e44d9227fb6d41b585e2443c7181ab5f827e7123f33430520338424c8f",
+      "credits": 54.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "Your sentence is served. The gates are open. Walk out with your head held high, and make this a fresh start.",
+      "duration": 7.601632653061224
+    },
+    "escaped": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:43.401370+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "2fcdb65e2cccb535f19ad543a10da317661717dda1576a60a5592cf01cf88942",
+      "credits": 56.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "Fresh air. No bars. No footsteps behind you. Blackwater fades into the distance. The rest of the story is yours.",
+      "duration": 8.176326530612245
+    },
+    "demo": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:44.563899+00:00",
+      "endpoint": "/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb",
+      "audio_sha256": "2f06a7b2b4aa3ecab0558988b03df516182e73970e18b91bf1c687c83540b601",
+      "credits": 56.0,
+      "model": "eleven_flash_v2_5",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "text": "This is Blackwater public address. Voices and sound effects are powered by ElevenLabs. Seven days. Two ways out.",
+      "duration": 8.071836734693878
+    },
+    "corridor": {
+      "provider": "ElevenLabs",
+      "http_status": 200,
+      "generated_at_utc": "2026-10-17T08:36:48.318865+00:00",
+      "endpoint": "/v1/sound-generation",
+      "audio_sha256": "01ba8c642799c10d3ffb4e4f0969d6200ab70bc9e00c84913ca6a37593fc27d7",
+      "credits": 60.0,
+      "model": "eleven_text_to_sound_v2",
+      "text": "Quiet distant prison corridor ambience. Gentle ventilation and soft distant footsteps, no voices, no music. Seamless loop.",
+      "duration": 6.0
+    },
+    "door": {
+      "service": "sound_effects",
+      "tested_at_utc": "2026-10-17T08:28:56.899792+00:00",
+      "ok": true,
+      "http_status": 200,
+      "content_type": "audio/mpeg",
+      "bytes": 8820,
+      "reported_credit_cost": "5",
+      "audio_file": "/Users/sakshamarc/Desktop/gamebuild/docs/elevenlabs-tests/sound_effects.mp3",
+      "elapsed_seconds": 1.48,
+      "decoded_audio": {
+        "duration_seconds": 0.48,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 3706,
+        "rms": 255.94,
+        "non_silent": true
+      }
+    }
+  }
+}

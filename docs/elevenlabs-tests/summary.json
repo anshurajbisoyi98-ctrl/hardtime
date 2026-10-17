@@ -1,0 +1,59 @@
+{
+  "tested_at_utc": "2026-10-17T08:29:46.895946+00:00",
+  "credential_format_valid": true,
+  "credential_file_permissions": "0600",
+  "credential_git_ignored": true,
+  "credential_excluded_from_delivery_archives": true,
+  "services": {
+    "speech": {
+      "service": "speech",
+      "tested_at_utc": "2026-10-17T08:28:46.136091+00:00",
+      "ok": true,
+      "http_status": 200,
+      "content_type": "audio/mpeg",
+      "bytes": 35151,
+      "reported_credit_cost": "15",
+      "audio_file": "/Users/sakshamarc/Desktop/gamebuild/docs/elevenlabs-tests/speech.mp3",
+      "elapsed_seconds": 6.31,
+      "decoded_audio": {
+        "duration_seconds": 2.168,
+        "sample_rate": 44100,
+        "channels": 1,
+        "peak": 24480,
+        "rms": 2550.08,
+        "non_silent": true
+      }
+    },
+    "sound_effects": {
+      "service": "sound_effects",
+      "tested_at_utc": "2026-10-17T08:28:56.899792+00:00",
+      "ok": true,
+      "http_status": 200,
+      "content_type": "audio/mpeg",
+      "bytes": 8820,
+      "reported_credit_cost": "5",
+      "audio_file": "/Users/sakshamarc/Desktop/gamebuild/docs/elevenlabs-tests/sound_effects.mp3",
+      "elapsed_seconds": 1.48,
+      "decoded_audio": {
+        "duration_seconds": 0.48,
+        "sample_rate": 44100,
+        "channels": 2,
+        "peak": 3706,
+        "rms": 255.94,
+        "non_silent": true
+      }
+    },
+    "music": {
+      "service": "music",
+      "tested_at_utc": "2026-10-17T08:29:05.336313+00:00",
+      "ok": false,
+      "http_status": 402,
+      "api_status": "limited_access",
+      "message": "Music API is not available for free users. Please upgrade to a paid plan to use the API.",
+      "elapsed_seconds": 0.53
+    }
+  },
+  "total_reported_successful_generation_credits": 20.0,
+  "game_integration_status": "Not integrated into the game yet; these are live API readiness checks.",
+  "audio_validation": "Both successful samples decoded with macOS afconvert and contain non-silent PCM audio; not manually listened to."
+}

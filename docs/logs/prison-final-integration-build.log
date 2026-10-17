@@ -1,0 +1,36 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Including Cocoa support
+CMake Warning (author) at build/_deps/raylib-src-22d2b241fba4/cmake/LibraryConfigurations.cmake:24 (MESSAGE):
+  OpenGL is deprecated starting with macOS 10.14 (Mojave)!
+Call Stack (most recent call first):
+  build/_deps/raylib-src-22d2b241fba4/src/CMakeLists.txt:49 (include)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Release
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Using the multi-header code from /Users/sakshamarc/Desktop/gamebuild/build/_deps/nlohmann_json-src/include/
+-- Implicit conversions are disabled (JSON_USE_IMPLICIT_CONVERSIONS=0)
+-- Diagnostics enabled (JSON_DIAGNOSTICS=1)
+-- Configuring done (0.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/sakshamarc/Desktop/gamebuild/build
+[0/4] Re-checking globbed directories...
+[1/13] Building CXX object CMakeFiles/prison_sim.dir/src/interactions.cpp.o
+[2/13] Building CXX object CMakeFiles/prison_sim.dir/src/game.cpp.o
+[3/13] Building CXX object CMakeFiles/prison_life.dir/src/view.cpp.o
+[4/13] Linking CXX static library libprison_sim.a
+[5/13] Building CXX object CMakeFiles/prison_tests.dir/src/view.cpp.o
+[6/13] Building CXX object CMakeFiles/prison_verify.dir/src/view.cpp.o
+[7/13] Linking CXX executable prison_verify
+[8/13] Linking CXX executable prison_life
+[9/13] Building CXX object CMakeFiles/prison_tests.dir/tests/test_rules.cpp.o
+[10/13] Linking CXX executable prison_tests

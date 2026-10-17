@@ -1,0 +1,22 @@
+Test project /Users/sakshamarc/Desktop/gamebuild/build
+    Start  9: lam_physics_tests
+1/5 Test  #9: lam_physics_tests ................   Passed    0.57 sec
+    Start 11: lam_input_tests
+2/5 Test #11: lam_input_tests ..................   Passed    0.77 sec
+    Start 14: lam_scene_tests
+3/5 Test #14: lam_scene_tests ..................   Passed    0.74 sec
+    Start 15: lam_tilemap_tests
+4/5 Test #15: lam_tilemap_tests ................   Passed    1.27 sec
+    Start 18: lam_ui_tests
+5/5 Test #18: lam_ui_tests .....................   Passed    0.51 sec
+
+100% tests passed out of 5
+
+Label Time Summary:
+input      =   0.77 sec*proc (1 test)
+physics    =   0.57 sec*proc (1 test)
+scene      =   0.74 sec*proc (1 test)
+tilemap    =   1.27 sec*proc (1 test)
+ui         =   0.51 sec*proc (1 test)
+
+Total Test time (real) =   3.87 sec

@@ -1,0 +1,236 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Including Cocoa support
+CMake Warning (author) at build/_deps/raylib-src-22d2b241fba4/cmake/LibraryConfigurations.cmake:24 (MESSAGE):
+  OpenGL is deprecated starting with macOS 10.14 (Mojave)!
+Call Stack (most recent call first):
+  build/_deps/raylib-src-22d2b241fba4/src/CMakeLists.txt:49 (include)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Release
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Using the multi-header code from /Users/sakshamarc/Desktop/gamebuild/build/_deps/nlohmann_json-src/include/
+-- Implicit conversions are disabled (JSON_USE_IMPLICIT_CONVERSIONS=0)
+-- Diagnostics enabled (JSON_DIAGNOSTICS=1)
+-- Configuring done (0.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/sakshamarc/Desktop/gamebuild/build
+[0/4] Re-checking globbed directories...
+[1/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/cmake_pch.hxx.pch
+[2/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/cmake_pch.hxx.pch
+[3/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/cmake_pch.hxx.pch
+[4/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input.dir/cmake_pch.hxx.pch
+[5/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/cmake_pch.hxx.pch
+[6/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/cmake_pch.hxx.pch
+[7/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/cmake_pch.hxx.pch
+[8/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/cmake_pch.hxx.pch
+[9/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/vec2.cpp.o
+[10/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/scalar.cpp.o
+[11/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/color.cpp.o
+[12/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/transform.cpp.o
+[13/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/rng.cpp.o
+[14/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/geometry.cpp.o
+[15/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/tween.cpp.o
+[16/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/ease.cpp.o
+[17/200] Building CXX object LambdaEngine2D/src/math/CMakeFiles/lam_math.dir/curve.cpp.o
+[18/200] Linking CXX static library LambdaEngine2D/src/math/liblam_math.a
+[19/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/log.cpp.o
+[20/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/hash.cpp.o
+[21/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/texture.cpp.o
+[22/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/component.cpp.o
+[23/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/id.cpp.o
+[24/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/clock.cpp.o
+[25/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/text.cpp.o
+[26/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/alloc.cpp.o
+[27/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/commands.cpp.o
+[28/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/events.cpp.o
+[29/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio.dir/cmake_pch.hxx.pch
+[30/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/build_info.cpp.o
+[31/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/resources.cpp.o
+[32/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/debug.cpp.o
+[33/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/profiler.cpp.o
+[34/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/fs.cpp.o
+[35/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/world.cpp.o
+[36/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/turns.cpp.o
+[37/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/transform.cpp.o
+[38/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/app_frame.cpp.o
+[39/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/snapshot.cpp.o
+[40/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/ctx.cpp.o
+[41/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/settings.cpp.o
+[42/200] Building CXX object LambdaEngine2D/src/ecs/CMakeFiles/lam_ecs.dir/prefab.cpp.o
+[43/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/null_platform.cpp.o
+[44/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/app_worlds.cpp.o
+[45/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/launch_options.cpp.o
+[46/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_decode.cpp.o
+[47/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_registry.cpp.o
+[48/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/app.cpp.o
+[49/200] Building CXX object LambdaEngine2D/src/core/app/CMakeFiles/lam_app.dir/app_systems.cpp.o
+[50/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_root.cpp.o
+[51/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/camera_view.cpp.o
+[52/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/virtual_screen.cpp.o
+[53/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_hot_reload.cpp.o
+[54/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_paths.cpp.o
+[55/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/render_queue.cpp.o
+[56/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_pipeline.cpp.o
+[57/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/camera_math.cpp.o
+[58/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_worker.cpp.o
+[59/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/batching.cpp.o
+[60/200] Building CXX object LambdaEngine2D/src/assets/CMakeFiles/lam_assets.dir/asset_server.cpp.o
+[61/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/text.cpp.o
+[62/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/fade.cpp.o
+[63/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/atlas.cpp.o
+[64/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/lighting.cpp.o
+[65/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/passes.cpp.o
+[66/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/shader.cpp.o
+[67/200] Building CXX object LambdaEngine2D/src/core/CMakeFiles/lam_core.dir/data.cpp.o
+[68/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/shapes.cpp.o
+[69/200] Linking CXX static library LambdaEngine2D/src/core/liblam_core.a
+[70/200] Linking CXX static library LambdaEngine2D/src/ecs/liblam_ecs.a
+[71/200] Linking CXX static library LambdaEngine2D/src/core/app/liblam_app.a
+[72/200] Linking CXX static library LambdaEngine2D/src/assets/liblam_assets.a
+[73/200] Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.o
+[74/200] Building CXX object LambdaEngine2D/src/scene/CMakeFiles/lam_scene.dir/cmake_pch.hxx.pch
+[75/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/render_systems.cpp.o
+[76/200] Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.o
+[77/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/render_plugin.cpp.o
+[78/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/collect.cpp.o
+[79/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render.dir/fonts.cpp.o
+[80/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o
+[81/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o
+[82/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
+[83/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o
+[84/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o
+[85/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
+[86/200] Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o
+[87/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
+[88/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o
+[89/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
+[90/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
+[91/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
+[92/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o
+[93/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o
+[94/200] Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o
+[95/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o
+[96/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o
+[97/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
+[98/200] Linking CXX static library LambdaEngine2D/src/render/liblam_render.a
+[99/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o
+[100/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
+[101/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
+[102/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o
+[103/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/shapes.cpp.o
+[104/200] Building C object _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o
+[105/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/tile_rays.cpp.o
+[106/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/tile_world.cpp.o
+[107/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/steering.cpp.o
+[108/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/projectiles.cpp.o
+[109/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input.dir/keys.cpp.o
+[110/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/solver.cpp.o
+[111/200] Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o
+[112/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/broadphase.cpp.o
+[113/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/motors.cpp.o
+[114/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/queries.cpp.o
+[115/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input.dir/input_system.cpp.o
+[116/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input.dir/action_map.cpp.o
+[117/200] Building CXX object LambdaEngine2D/src/physics/CMakeFiles/lam_physics.dir/physics_plugin.cpp.o
+[118/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input.dir/bindings.cpp.o
+[119/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio.dir/audio_plugin.cpp.o
+[120/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input.dir/input_plugin.cpp.o
+[121/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input.dir/replay.cpp.o
+[122/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio.dir/audio_streams.cpp.o
+[123/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio.dir/loaders.cpp.o
+[124/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio.dir/sound_math.cpp.o
+[125/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio.dir/audio.cpp.o
+[126/200] Building C object _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o
+In file included from /Users/sakshamarc/Desktop/gamebuild/build/_deps/raylib-src-22d2b241fba4/src/raudio.c:214:
+/Users/sakshamarc/Desktop/gamebuild/build/_deps/raylib-src-22d2b241fba4/src/external/stb_vorbis.c:1404:75: warning: pointer comparison always evaluates to false [-Wtautological-compare]
+ 1404 |       if (f->stream_start + loc >= f->stream_end || f->stream_start + loc < f->stream_start) {
+      |                                                                           ^
+1 warning generated.
+[127/200] Building CXX object LambdaEngine2D/src/scene/CMakeFiles/lam_scene.dir/scene_fade.cpp.o
+[128/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio.dir/null_device.cpp.o
+[129/200] Building CXX object LambdaEngine2D/src/scene/CMakeFiles/lam_scene.dir/save.cpp.o
+[130/200] Linking C static library _deps/raylib-build/raylib/libraylib.a
+[131/200] Building CXX object LambdaEngine2D/src/animation/CMakeFiles/lam_animation.dir/cmake_pch.hxx.pch
+[132/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/cmake_pch.hxx.pch
+[133/200] Building CXX object LambdaEngine2D/src/particles/CMakeFiles/lam_particles.dir/cmake_pch.hxx.pch
+[134/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/cmake_pch.hxx.pch
+[135/200] Linking CXX static library LambdaEngine2D/src/physics/liblam_physics.a
+[136/200] Building CXX object LambdaEngine2D/src/scene/CMakeFiles/lam_scene.dir/world_save.cpp.o
+[137/200] Building CXX object LambdaEngine2D/src/scene/CMakeFiles/lam_scene.dir/scene.cpp.o
+[138/200] Linking CXX static library LambdaEngine2D/src/input/liblam_input.a
+[139/200] Linking CXX static library LambdaEngine2D/src/audio/liblam_audio.a
+[140/200] Linking CXX static library LambdaEngine2D/src/scene/liblam_scene.a
+[141/200] Building CXX object LambdaEngine2D/src/core/backend/CMakeFiles/lam_platform.dir/log_redirect.cpp.o
+[142/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/autotile.cpp.o
+[143/200] Building CXX object LambdaEngine2D/src/input/CMakeFiles/lam_input_rl.dir/backend/raylib_input.cpp.o
+[144/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/fov.cpp.o
+[145/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/grid_maps.cpp.o
+[146/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/grid_path.cpp.o
+[147/200] Building CXX object LambdaEngine2D/src/core/backend/CMakeFiles/lam_platform.dir/raylib_platform.cpp.o
+[148/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render_rl.dir/backend/rl_loaders.cpp.o
+[149/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render_rl.dir/backend/gpu_batcher.cpp.o
+[150/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/path_follow.cpp.o
+[151/200] Building CXX object LambdaEngine2D/src/audio/CMakeFiles/lam_audio_rl.dir/backend/raylib_audio.cpp.o
+[152/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/procgen.cpp.o
+[153/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/grid_mover.cpp.o
+[154/200] Building CXX object LambdaEngine2D/src/render/CMakeFiles/lam_render_rl.dir/backend/raylib_render_plugin.cpp.o
+[155/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/tiled_map.cpp.o
+[156/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/native_map.cpp.o
+[157/200] Building CXX object LambdaEngine2D/src/animation/CMakeFiles/lam_animation.dir/anim_graph.cpp.o
+[158/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/tilemap.cpp.o
+[159/200] Building CXX object LambdaEngine2D/src/animation/CMakeFiles/lam_animation.dir/sprite_sheet.cpp.o
+[160/200] Building CXX object LambdaEngine2D/src/particles/CMakeFiles/lam_particles.dir/config.cpp.o
+[161/200] Building CXX object LambdaEngine2D/src/animation/CMakeFiles/lam_animation.dir/animator.cpp.o
+[162/200] Building CXX object LambdaEngine2D/src/animation/CMakeFiles/lam_animation.dir/tween.cpp.o
+[163/200] Building CXX object LambdaEngine2D/src/particles/CMakeFiles/lam_particles.dir/pools.cpp.o
+[164/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/tileset.cpp.o
+[165/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/ui_tree.cpp.o
+[166/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/ui_input.cpp.o
+[167/200] Building CXX object LambdaEngine2D/src/tilemap/CMakeFiles/lam_tilemap.dir/tilemap_plugin.cpp.o
+[168/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/toasts.cpp.o
+[169/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/message_log.cpp.o
+[170/200] Building CXX object LambdaEngine2D/src/particles/CMakeFiles/lam_particles.dir/loader.cpp.o
+[171/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/ui_layout.cpp.o
+[172/200] Building CXX object LambdaEngine2D/src/animation/CMakeFiles/lam_animation.dir/animation_plugin.cpp.o
+[173/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/ui_draw.cpp.o
+[174/200] Building CXX object LambdaEngine2D/src/particles/CMakeFiles/lam_particles.dir/plugin.cpp.o
+[175/200] Building CXX object CMakeFiles/prison_sim.dir/src/model.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/model.cpp:47:109: warning: implicit conversion from 'const value_type' (aka 'const int') to 'float' may lose precision [-Wimplicit-int-float-conversion]
+   47 | Result eatMeal(Model &m){for(auto &i:m.bag.slots)if(isFood(i)){m.stats.sanity=std::min(100.f,m.stats.sanity+cfg::foodGains[static_cast<std::size_t>(static_cast<int>(i)-static_cast<int>(Item::Rice))]);i=Item::None;return {true,"A quiet meal. Sanity restored; health unchanged."};}return {false,"Pick up a meal at the west counter first."};}
+      |                                                                                                            ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[176/200] Building CXX object LambdaEngine2D/src/core/engine/CMakeFiles/lam_engine.dir/cmake_pch.hxx.pch
+[177/200] Linking CXX static library LambdaEngine2D/src/core/backend/liblam_platform.a
+[178/200] Linking CXX static library LambdaEngine2D/src/render/liblam_render_rl.a
+[179/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/ui_theme.cpp.o
+[180/200] Linking CXX static library LambdaEngine2D/src/input/liblam_input_rl.a
+[181/200] Linking CXX static library LambdaEngine2D/src/audio/liblam_audio_rl.a
+[182/200] Linking CXX static library LambdaEngine2D/src/tilemap/liblam_tilemap.a
+[183/200] Linking CXX static library LambdaEngine2D/src/animation/liblam_animation.a
+[184/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/ui_plugin.cpp.o
+[185/200] Linking CXX static library LambdaEngine2D/src/particles/liblam_particles.a
+[186/200] Building CXX object CMakeFiles/prison_sim.dir/src/map.cpp.o
+[187/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/dialogue.cpp.o
+[188/200] Building CXX object LambdaEngine2D/src/core/engine/CMakeFiles/lam_engine.dir/default_plugins.cpp.o
+[189/200] Building CXX object LambdaEngine2D/src/ui/CMakeFiles/lam_ui.dir/menu_scenes.cpp.o
+[190/200] Linking CXX static library LambdaEngine2D/src/ui/liblam_ui.a
+[191/200] Building CXX object CMakeFiles/prison_sim.dir/src/save.cpp.o
+[192/200] Linking CXX static library LambdaEngine2D/src/core/engine/liblam_engine.a
+[193/200] Building CXX object CMakeFiles/prison_life.dir/src/main.cpp.o
+[194/200] Building CXX object CMakeFiles/prison_sim.dir/src/game.cpp.o
+[195/200] Linking CXX static library libprison_sim.a
+[196/200] Building CXX object CMakeFiles/prison_life.dir/src/view.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:136:38: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  136 |     for(int i=0;i<3;++i){float x=634+i*104.f;bool selected=g.model.bag.selected==i;box(q,{x,500,98,80},selected?Color::hex(0x283b43ff):panel);if(selected)q.rect({x,500,98,2},orange,220);text(ctx,std::to_string(i+1),{x+7,507},10,muted);itemIcon(q,g.model.bag.slots[static_cast<std::size_t>(i)],{x+49,530},.7f);std::string n(itemName(g.model.bag.slots[static_cast<std::size_t>(i)]));if(n=="Kitchen knife")n="Knife";if(n=="Loaned shovel")n="Loan shovel";text(ctx,n,{x+49,557},9,cream,true);}
+      |                                      ^~
+1 warning generated.
+[197/200] Linking CXX executable prison_life

@@ -1,0 +1,4 @@
+Isolated app copy: /var/folders/bb/q8jk6z750k158fv46kzmmr840000gn/T/prison-standalone-7rg6k0xh
+LAM info: assets: root '/private/var/folders/bb/q8jk6z750k158fv46kzmmr840000gn/T/prison-standalone-7rg6k0xh/Prison Life.app/Contents/MacOS/assets' (exe), synchronous
+prison_audio: voices=8 live_requests=0 http=0 completed_lines=0
+prison_life: cells=12 inmates=10 officers=3 players=1 hp=10 money=0 day=1 sentence=7 phase=2

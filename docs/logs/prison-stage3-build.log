@@ -1,0 +1,7 @@
+[0/2] Re-checking globbed directories...
+[1/3] Building CXX object CMakeFiles/prison_life.dir/src/view.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:136:38: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  136 |     for(int i=0;i<3;++i){float x=634+i*104.f;bool selected=g.model.bag.selected==i;box(q,{x,500,98,80},selected?Color::hex(0x283b43ff):panel);if(selected)q.rect({x,500,98,2},orange,220);text(ctx,std::to_string(i+1),{x+7,507},10,muted);itemIcon(q,g.model.bag.slots[static_cast<std::size_t>(i)],{x+49,530},.7f);std::string n(itemName(g.model.bag.slots[static_cast<std::size_t>(i)]));if(n=="Kitchen knife")n="Knife";if(n=="Loaned shovel")n="Loan shovel";text(ctx,n,{x+49,557},9,cream,true);}
+      |                                      ^~
+1 warning generated.
+[2/3] Linking CXX executable prison_life

@@ -1,0 +1,70 @@
+LAM info: raylib: Initializing raylib 6.0
+LAM info: raylib: Platform backend: DESKTOP (GLFW)
+LAM info: raylib: Supported raylib modules:
+LAM info: raylib:     > rcore:..... loaded (mandatory)
+LAM info: raylib:     > rlgl:...... loaded (mandatory)
+LAM info: raylib:     > rshapes:... loaded (optional)
+LAM info: raylib:     > rtextures:. loaded (optional)
+LAM info: raylib:     > rtext:..... loaded (optional)
+LAM info: raylib:     > rmodels:... not loaded (optional)
+LAM info: raylib:     > raudio:.... loaded (optional)
+LAM info: raylib: DISPLAY: Trying to enable VSYNC
+LAM info: raylib: DISPLAY: Device initialized successfully (HighDPI)
+LAM info: raylib:     > Display size: 1470 x 956
+LAM info: raylib:     > Screen size:  1200 x 750
+LAM info: raylib:     > Render size:  2400 x 1500
+LAM info: raylib:     > Viewport offsets: 0, 0
+LAM info: raylib: GLAD: OpenGL extensions loaded successfully
+LAM info: raylib: GL: Supported extensions count: 43
+LAM info: raylib: GL: OpenGL device information:
+LAM info: raylib:     > Vendor:   Apple
+LAM info: raylib:     > Renderer: Apple M5
+LAM info: raylib:     > Version:  4.1 Metal - 91.7
+LAM info: raylib:     > GLSL:     4.10
+LAM info: raylib: GL: VAO extension detected, VAO functions loaded successfully
+LAM info: raylib: GL: NPOT textures extension detected, full NPOT textures supported
+LAM info: raylib: GL: DXT compressed textures supported
+LAM info: raylib: PLATFORM: DESKTOP (GLFW - Cocoa): Initialized successfully
+LAM info: raylib: TEXTURE: [ID 1] Texture loaded successfully (1x1 | R8G8B8A8 | 1 mipmaps)
+LAM info: raylib: TEXTURE: [ID 1] Default texture loaded successfully
+LAM info: raylib: SHADER: [ID 1] Vertex shader compiled successfully
+LAM info: raylib: SHADER: [ID 2] Fragment shader compiled successfully
+LAM info: raylib: SHADER: [ID 3] Program shader loaded successfully
+LAM info: raylib: SHADER: [ID 3] Default shader loaded successfully
+LAM info: raylib: RLGL: Render batch vertex buffers loaded successfully in RAM (CPU)
+LAM info: raylib: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
+LAM info: raylib: RLGL: Default OpenGL state initialized successfully
+LAM info: raylib: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
+LAM info: raylib: FONT: Default font loaded successfully (224 glyphs)
+LAM info: raylib: SYSTEM: Working Directory: /Users/sakshamarc/Desktop/gamebuild
+LAM info: raylib: AUDIO: Device initialized successfully
+LAM info: raylib:     > Backend:       miniaudio | Core Audio
+LAM info: raylib:     > Format:        32-bit IEEE Floating Point -> 32-bit IEEE Floating Point
+LAM info: raylib:     > Channels:      2 -> 2
+LAM info: raylib:     > Sample rate:   44100 -> 44100
+LAM info: raylib:     > Periods size:  1323
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (fallback), synchronous
+LAM info: raylib: SHADER: [ID 4] Vertex shader compiled successfully
+LAM info: raylib: SHADER: [ID 5] Fragment shader compiled successfully
+LAM info: raylib: SHADER: [ID 6] Program shader loaded successfully
+LAM info: raylib: SHADER: [ID 4] Vertex shader compiled successfully
+LAM info: raylib: SHADER: [ID 5] Fragment shader compiled successfully
+LAM info: raylib: SHADER: [ID 7] Program shader loaded successfully
+LAM info: raylib: TEXTURE: [ID 3] Texture loaded successfully (64x64 | R8G8B8A8 | 1 mipmaps)
+LAM info: raylib: TEXTURE: [ID 4] Texture loaded successfully (2048x2048 | R8G8B8A8 | 1 mipmaps)
+LAM info: raylib: TEXTURE: [ID 5] Texture loaded successfully (960x600 | R8G8B8A8 | 1 mipmaps)
+LAM info: raylib: TEXTURE: [ID 1] Depth renderbuffer loaded successfully (32 bits)
+LAM info: raylib: FBO: [ID 1] Framebuffer object created successfully
+LAM info: raylib: FILEIO: [/Users/sakshamarc/Desktop/gamebuild/docs/captures/stage-1-map-fit.png] File saved successfully
+LAM info: raylib: FILEIO: [/Users/sakshamarc/Desktop/gamebuild/docs/captures/stage-1-map-fit.png] Image exported successfully
+LAM info: render: screenshot written to /Users/sakshamarc/Desktop/gamebuild/docs/captures/stage-1-map-fit.png
+LAM info: raylib: FBO: [ID 1] Unloaded framebuffer from VRAM (GPU)
+LAM info: raylib: VAO: [ID 2] Unloaded vertex array data from VRAM (GPU)
+LAM info: raylib: SHADER: [ID 7] Unloaded shader program data from VRAM (GPU)
+LAM info: raylib: SHADER: [ID 6] Unloaded shader program data from VRAM (GPU)
+LAM info: raylib: AUDIO: Device closed successfully
+LAM info: raylib: TEXTURE: [ID 2] Unloaded texture data from VRAM (GPU)
+LAM info: raylib: SHADER: [ID 3] Default shader unloaded successfully
+LAM info: raylib: TEXTURE: [ID 1] Default texture unloaded successfully
+LAM info: raylib: Window closed successfully
+prison_life: cells=12 inmates=10 officers=3 hp=10 money=0 day=1 sentence=7 phase=2

@@ -1,0 +1,13 @@
+{
+  "provider": "ElevenLabs",
+  "lines": [
+    {"id":"verdict","speaker":"THE JUDGE","text":"The court finds you guilty. You are sentenced to seven days in Blackwater. Your choices decide how this sentence ends."},
+    {"id":"welcome","speaker":"BLACKWATER PA","text":"Welcome to Blackwater. Your cell is A zero one. Keep your head up, follow the routine, and make every day count."},
+    {"id":"meal","speaker":"BLACKWATER PA","text":"The cafeteria is now open. Collect your meal at the counter, then find a free seat. One meal per prisoner."},
+    {"id":"curfew","speaker":"OFFICER HALE","text":"Attention, prisoners. Curfew begins in thirty minutes. Finish what you are doing and return to your assigned cell."},
+    {"id":"phone","speaker":"A CALL FROM HOME","text":"Hey, it's Dad. We miss you. Keep your head down and take care of yourself. We'll be waiting when those gates open."},
+    {"id":"released","speaker":"OFFICER HALE","text":"Your sentence is served. The gates are open. Walk out with your head held high, and make this a fresh start."},
+    {"id":"escaped","speaker":"BEYOND THE WALLS","text":"Fresh air. No bars. No footsteps behind you. Blackwater fades into the distance. The rest of the story is yours."},
+    {"id":"demo","speaker":"BLACKWATER PA","text":"This is Blackwater public address. Voices and sound effects are powered by ElevenLabs. Seven days. Two ways out."}
+  ]
+}

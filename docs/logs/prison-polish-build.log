@@ -1,0 +1,50 @@
+[0/2] Re-checking globbed directories...
+-- GLOB mismatch!
+The following files were added:
+  +PrisonLife.icns
+  +icon.png
+[1/2] Re-running CMake...
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Including Cocoa support
+CMake Warning (author) at build/_deps/raylib-src-22d2b241fba4/cmake/LibraryConfigurations.cmake:24 (MESSAGE):
+  OpenGL is deprecated starting with macOS 10.14 (Mojave)!
+Call Stack (most recent call first):
+  build/_deps/raylib-src-22d2b241fba4/src/CMakeLists.txt:49 (include)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Release
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Using the multi-header code from /Users/sakshamarc/Desktop/gamebuild/build/_deps/nlohmann_json-src/include/
+-- Implicit conversions are disabled (JSON_USE_IMPLICIT_CONVERSIONS=0)
+-- Diagnostics enabled (JSON_DIAGNOSTICS=1)
+-- Configuring done (0.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/sakshamarc/Desktop/gamebuild/build
+[0/4] Re-checking globbed directories...
+[1/11] Generating assets/icon.png
+[2/11] Generating assets/PrisonLife.icns
+[3/11] Building CXX object CMakeFiles/prison_verify.dir/src/view.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:37:57: warning: braces around scalar initializer [-Wbraced-scalar-init]
+   37 |     else if(i==Item::Apple){q.circle(p+Vec2{-3*scale,0},{8*scale},red,layer);q.circle(p+Vec2{4*scale,0},8*scale,red,layer);r(0,-13,2,6,Color::hex(0x84644eff));q.ellipse(p+Vec2{5*scale,-10*scale},{5*scale,2*scale},green,layer);r(-6,-4,2,4,cream.with_alpha(150));}
+      |                                                         ^~~~~~~~~
+1 warning generated.
+[4/11] Building CXX object CMakeFiles/prison_tests.dir/src/view.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:37:57: warning: braces around scalar initializer [-Wbraced-scalar-init]
+   37 |     else if(i==Item::Apple){q.circle(p+Vec2{-3*scale,0},{8*scale},red,layer);q.circle(p+Vec2{4*scale,0},8*scale,red,layer);r(0,-13,2,6,Color::hex(0x84644eff));q.ellipse(p+Vec2{5*scale,-10*scale},{5*scale,2*scale},green,layer);r(-6,-4,2,4,cream.with_alpha(150));}
+      |                                                         ^~~~~~~~~
+1 warning generated.
+[5/11] Building CXX object CMakeFiles/prison_life.dir/src/view.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:37:57: warning: braces around scalar initializer [-Wbraced-scalar-init]
+   37 |     else if(i==Item::Apple){q.circle(p+Vec2{-3*scale,0},{8*scale},red,layer);q.circle(p+Vec2{4*scale,0},8*scale,red,layer);r(0,-13,2,6,Color::hex(0x84644eff));q.ellipse(p+Vec2{5*scale,-10*scale},{5*scale,2*scale},green,layer);r(-6,-4,2,4,cream.with_alpha(150));}
+      |                                                         ^~~~~~~~~
+1 warning generated.
+[6/11] Linking CXX executable prison_verify
+[7/11] Linking CXX executable prison_tests
+[8/11] Linking CXX executable prison_life

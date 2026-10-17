@@ -1,0 +1,25 @@
+{
+  "groups": {
+    "gavel": {
+      "file": "gavel.wav",
+      "volume": 0.6,
+      "pitch_jitter": 0
+    },
+    "punch": {
+      "file": "punch.wav",
+      "volume": 0.6,
+      "pitch_jitter": 0
+    },
+    "bell": {
+      "file": "bell.wav",
+      "volume": 0.6,
+      "pitch_jitter": 0
+    },
+    "eleven_door": {
+      "file": "elevenlabs/door.wav",
+      "volume": 0.7,
+      "pitch_jitter": 0,
+      "bus": "elevenlabs"
+    }
+  }
+}

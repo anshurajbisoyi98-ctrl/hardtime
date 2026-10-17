@@ -1,0 +1,13 @@
+LAM info: assets: root '/Users/sakshamarc/Desktop/gamebuild/build/assets' (exe), synchronous
+verification stage=1 tick=976
+verification stage=2 tick=1353
+verification stage=3 tick=1783
+verification stage=4 tick=2090
+verification stage=1 tick=3151
+verification stage=2 tick=3528
+verification stage=3 tick=3958
+verification stage=4 tick=4265
+verification stage=5 tick=4269
+verification stage=6 tick=4371
+verification ending=5 tick=5211 hp=10 sentence=8
+prison_life: cells=12 inmates=10 officers=3 players=1 hp=10 money=0 day=1 sentence=8 phase=5

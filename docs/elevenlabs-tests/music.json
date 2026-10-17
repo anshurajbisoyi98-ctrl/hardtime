@@ -1,0 +1,9 @@
+{
+  "service": "music",
+  "tested_at_utc": "2026-10-17T08:29:05.336313+00:00",
+  "ok": false,
+  "http_status": 402,
+  "api_status": "limited_access",
+  "message": "Music API is not available for free users. Please upgrade to a paid plan to use the API.",
+  "elapsed_seconds": 0.53
+}

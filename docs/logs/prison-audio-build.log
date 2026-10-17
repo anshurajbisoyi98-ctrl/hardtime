@@ -1,0 +1,66 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Including Cocoa support
+CMake Warning (author) at build/_deps/raylib-src-22d2b241fba4/cmake/LibraryConfigurations.cmake:24 (MESSAGE):
+  OpenGL is deprecated starting with macOS 10.14 (Mojave)!
+Call Stack (most recent call first):
+  build/_deps/raylib-src-22d2b241fba4/src/CMakeLists.txt:49 (include)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Release
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Using the multi-header code from /Users/sakshamarc/Desktop/gamebuild/build/_deps/nlohmann_json-src/include/
+-- Implicit conversions are disabled (JSON_USE_IMPLICIT_CONVERSIONS=0)
+-- Diagnostics enabled (JSON_DIAGNOSTICS=1)
+-- Configuring done (0.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/sakshamarc/Desktop/gamebuild/build
+[0/4] Re-checking globbed directories...
+[1/23] Generating assets/sfx/bell.wav
+[2/23] Generating assets/sfx/gavel.wav
+[3/23] Generating assets/sfx/prison.sounds.json
+[4/23] Generating assets/sfx/punch.wav
+[5/23] Building CXX object CMakeFiles/prison_sim.dir/src/model.cpp.o
+[6/23] Building CXX object CMakeFiles/prison_sim.dir/src/map.cpp.o
+[7/23] Building CXX object CMakeFiles/prison_sim.dir/src/save.cpp.o
+[8/23] Building CXX object CMakeFiles/prison_life.dir/src/main.cpp.o
+[9/23] Building CXX object CMakeFiles/prison_sim.dir/src/interactions.cpp.o
+[10/23] Building CXX object CMakeFiles/prison_sim.dir/src/game.cpp.o
+[11/23] Building CXX object CMakeFiles/prison_sim.dir/src/people.cpp.o
+[12/23] Linking CXX static library libprison_sim.a
+[13/23] Building CXX object CMakeFiles/prison_verify.dir/src/main.cpp.o
+[14/23] Building CXX object CMakeFiles/prison_verify.dir/tools/verify.cpp.o
+[15/23] Building CXX object CMakeFiles/prison_life.dir/src/view.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:147:111: warning: declaration shadows a local variable [-Wshadow]
+  147 |     if((g.phase==Phase::Escaped||g.phase==Phase::Released)&&g.story<2.5f){q.rect({0,0,960,600},ink,220);float t=std::min(1.f,g.story/2.5f);if(g.phase==Phase::Escaped){q.ellipse({480,286},{200,210},Color::hex(0x273b43ff),220);q.ellipse({480,256},{130,160},Color::hex(0x496264ff),220);q.rect({430-t*60,120,100+t*120,200},cream,220);person(q,{480,390},Actor{.slot=-1},g.story,true,true,false,0,220,2);}else {q.rect({300,120,360,320},Color::hex(0x89a69bff),220);for(int k=0;k<8;++k){float x=310+k*48.f+(k<4?-1:1)*t*190;q.rect({x,120,7,320},muted,220);}person(q,{480,390-t*60},Actor{.slot=-1},g.story,true,true,false,0,220,2);}text(ctx,g.phase==Phase::Escaped?"A WAY OUT":"THE GATES OPEN",{480,492},24,cream,true);return;}
+      |                                                                                                               ^
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:136:24: note: previous declaration is here
+  136 |     char clock[64];int t=timeOfDay(g.model.clock);std::snprintf(clock,sizeof(clock),"DAY %02d  %02d:%02d",g.model.day,t/60,t%60);text(ctx,clock,{756,124},11,curfew(g.model.clock)?red:green);text(ctx,curfew(g.model.clock)?"CURFEW / RETURN TO A-01":"FREE TIME",{756,144},8,curfew(g.model.clock)?red:muted);
+      |                        ^
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:147:492: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  147 |     if((g.phase==Phase::Escaped||g.phase==Phase::Released)&&g.story<2.5f){q.rect({0,0,960,600},ink,220);float t=std::min(1.f,g.story/2.5f);if(g.phase==Phase::Escaped){q.ellipse({480,286},{200,210},Color::hex(0x273b43ff),220);q.ellipse({480,256},{130,160},Color::hex(0x496264ff),220);q.rect({430-t*60,120,100+t*120,200},cream,220);person(q,{480,390},Actor{.slot=-1},g.story,true,true,false,0,220,2);}else {q.rect({300,120,360,320},Color::hex(0x89a69bff),220);for(int k=0;k<8;++k){float x=310+k*48.f+(k<4?-1:1)*t*190;q.rect({x,120,7,320},muted,220);}person(q,{480,390-t*60},Actor{.slot=-1},g.story,true,true,false,0,220,2);}text(ctx,g.phase==Phase::Escaped?"A WAY OUT":"THE GATES OPEN",{480,492},24,cream,true);return;}
+      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^~
+2 warnings generated.
+[16/23] Linking CXX executable prison_life
+[17/23] Building CXX object CMakeFiles/prison_verify.dir/src/view.cpp.o
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:147:111: warning: declaration shadows a local variable [-Wshadow]
+  147 |     if((g.phase==Phase::Escaped||g.phase==Phase::Released)&&g.story<2.5f){q.rect({0,0,960,600},ink,220);float t=std::min(1.f,g.story/2.5f);if(g.phase==Phase::Escaped){q.ellipse({480,286},{200,210},Color::hex(0x273b43ff),220);q.ellipse({480,256},{130,160},Color::hex(0x496264ff),220);q.rect({430-t*60,120,100+t*120,200},cream,220);person(q,{480,390},Actor{.slot=-1},g.story,true,true,false,0,220,2);}else {q.rect({300,120,360,320},Color::hex(0x89a69bff),220);for(int k=0;k<8;++k){float x=310+k*48.f+(k<4?-1:1)*t*190;q.rect({x,120,7,320},muted,220);}person(q,{480,390-t*60},Actor{.slot=-1},g.story,true,true,false,0,220,2);}text(ctx,g.phase==Phase::Escaped?"A WAY OUT":"THE GATES OPEN",{480,492},24,cream,true);return;}
+      |                                                                                                               ^
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:136:24: note: previous declaration is here
+  136 |     char clock[64];int t=timeOfDay(g.model.clock);std::snprintf(clock,sizeof(clock),"DAY %02d  %02d:%02d",g.model.day,t/60,t%60);text(ctx,clock,{756,124},11,curfew(g.model.clock)?red:green);text(ctx,curfew(g.model.clock)?"CURFEW / RETURN TO A-01":"FREE TIME",{756,144},8,curfew(g.model.clock)?red:muted);
+      |                        ^
+/Users/sakshamarc/Desktop/gamebuild/src/view.cpp:147:492: warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  147 |     if((g.phase==Phase::Escaped||g.phase==Phase::Released)&&g.story<2.5f){q.rect({0,0,960,600},ink,220);float t=std::min(1.f,g.story/2.5f);if(g.phase==Phase::Escaped){q.ellipse({480,286},{200,210},Color::hex(0x273b43ff),220);q.ellipse({480,256},{130,160},Color::hex(0x496264ff),220);q.rect({430-t*60,120,100+t*120,200},cream,220);person(q,{480,390},Actor{.slot=-1},g.story,true,true,false,0,220,2);}else {q.rect({300,120,360,320},Color::hex(0x89a69bff),220);for(int k=0;k<8;++k){float x=310+k*48.f+(k<4?-1:1)*t*190;q.rect({x,120,7,320},muted,220);}person(q,{480,390-t*60},Actor{.slot=-1},g.story,true,true,false,0,220,2);}text(ctx,g.phase==Phase::Escaped?"A WAY OUT":"THE GATES OPEN",{480,492},24,cream,true);return;}
+      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^~
+2 warnings generated.
+[18/23] Linking CXX executable prison_verify
+[19/23] Building CXX object CMakeFiles/prison_tests.dir/tests/test_rules.cpp.o
+[20/23] Linking CXX executable prison_tests
