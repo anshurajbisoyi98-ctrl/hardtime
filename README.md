@@ -145,5 +145,6 @@ Recording scripts and API generation receipts: `assets/elevenlabs/lines.json` an
 See `docs/ELEVENLABS_SHOWCASE.md` for a short presentation sequence and verification evidence.
 
 ## Contributors
-
+https://github.com/bhuvan-rai
+https://github.com/sakshamgusain-arc
 <!-- Add contributors here -->
